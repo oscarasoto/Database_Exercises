@@ -1,6 +1,6 @@
 USE codeup_text_db;
 INSERT INTO albums (artist, name, release_date, sales, genre)
-VALUES ('Michale Jackson', 'Thriller', 1982, 46, 'Pop, Rock, R&B');
+VALUES ('Michael Jackson', 'Thriller', 1982, 46, 'Pop, Rock, R&B');
 
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('AC/DC', 'Black in Black', 1980, 26.1, 'Hard Rock'),
