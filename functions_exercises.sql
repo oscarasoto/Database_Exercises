@@ -21,3 +21,7 @@ WHERE last_name LIKE '%q%'
       AND last_name NOT LIKE '%qu%'
 GROUP BY first_name, last_name
 ORDER BY repeats DESC, first_name, last_name;
+
+SELECT concat(emp_no, ' - ',first_name, ', ', last_name) AS 'Full Name', birth_date AS 'DOB'
+FROM employees
+LIMIT 10;
